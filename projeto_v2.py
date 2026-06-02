@@ -148,7 +148,7 @@ print("\nCONQUISTAS DESBLOQUEADAS:")
 if len(conquistas) > 0:
     for conquista in conquistas:
         print(f"- {conquista}")
-else:
+else:#estrutura que executa um bloco de código caso todos as condiçôes (if e elif)sejam falsas.
     print("- Nenhuma conquista desbloqueada")
 
 print("\nCLASSIFICAÇÃO:")
