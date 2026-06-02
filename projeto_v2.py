@@ -113,7 +113,7 @@ while indice < len(fases):
     while True:
         resposta = input("\nDigite sua escolha (A/B/C/D): ").upper().strip()
         if resposta in ["A", "B", "C", "D"]:
-            break
+            break#interrompe e sai imediatamente de um laço de repetiçao.
         print("Opção inválida! Digite apenas A, B, C ou D.")
 
     # Verifica resultado
